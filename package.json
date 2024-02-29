@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href=./angular-githubpages/",
-    "deploy": "ngh --dir=dist/angular-githubpages/browser",
+    "build": "ng build --base-href=./angular-githubpages",
+    "deploy-ghp": "ngh --dir=dist/angular-githubpages/browser",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
